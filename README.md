@@ -18,3 +18,7 @@ Create & migrate the database
 bundle exec rake db:create
 bundle exec rake db:migrate
 ```
+Start server
+```
+rails s
+```
