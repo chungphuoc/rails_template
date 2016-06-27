@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title RailsTemplate
+    link rel="shortcut icon" type="image/x-icon" href=""/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  body class = "#{@custom_controller_name || controller_name} #{action_name}"
+    = yield
+    = javascript_include_tag 'application', 'data-turbolinks-track' => false

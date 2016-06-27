@@ -44,4 +44,10 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
   config.action_mailer.default_url_options = { :host => ENV["DOMAIN"] }
+
+  Bullet.enable = true
+  # Bullet.alert = true
+  Bullet.bullet_logger = true
+  Bullet.console = true
+  Bullet.rails_logger = true
 end
