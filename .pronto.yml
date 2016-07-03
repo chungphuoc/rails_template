@@ -1,0 +1,10 @@
+all:
+  exclude:
+    - 'spec/**/*'
+github:
+  slug: chungphuoc/rails_template
+  access_token: ef4d3d5215322617366b001e6d39f9b45f565780
+  api_endpoint: https://api.github.com/
+  web_endpoint: https://github.com/
+max_warnings: 150
+verbose: false
