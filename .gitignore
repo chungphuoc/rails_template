@@ -24,3 +24,4 @@ coverage/.resultset.json
 coverage/index.html
 # Ignore application configuration
 /config/application.yml
+.pronto.yml
