@@ -63,3 +63,5 @@ end
 
 gem 'figaro'
 gem 'bullet'
+gem 'proton'
+gem 'pronto-rubocop', require: false
